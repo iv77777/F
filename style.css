@@ -1,0 +1,77 @@
+html{
+ height: 100%;
+}
+
+body{
+  color: #e2bdbd;
+  font-size: 25px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  letter-spacing: 2px;
+
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, rgba(253,51,73,1) 0%, rgba(0,0,0,1) 100%);
+  /* background: radial-gradient(circle, rgba(251,202,63,1) 0%, rgba(93,19,19,1) 100%); */
+}
+
+.unselectable {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container{
+  max-width: 320px;
+  margin: 0 auto;
+  padding: 30px 15px;
+}
+
+.fahrenheit__inner{
+  display: flex;
+  justify-content: center;
+
+  padding: 15px;
+  margin-bottom: 20px;
+
+  border-radius: 5px;
+
+  background: radial-gradient(circle, rgba(253,51,73,1) 0%, rgba(0,0,0,1) 100%);
+  /* background: radial-gradient(circle, rgba(251,202,63,1) 0%, rgba(93,19,19,1) 100%); */
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.input {
+  text-align: center;
+  max-width: 100px;
+  border-radius: 5px;
+  padding: 0 10px;
+  height: 40px;
+}
+.text-center{
+  text-align: center;
+}
+
+.equals{
+  align-self: flex-end;
+  padding: 0 10px;
+}
+
+.button {
+  background: radial-gradient(circle, rgba(253,51,73,1) 0%, rgba(0,0,0,1) 100%);
+  /* background: radial-gradient(circle, rgba(251,202,63,1) 0%, rgba(93,19,19,1) 100%); */
+  color: #ebd4d4;
+  border-radius: 5px;
+  padding: 13px 45px 15px;
+  line-height: 100%;
+  box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+  width: 100%;
+}
+
+.button:active {
+  transform: scale(0.98);
+}
